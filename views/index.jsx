@@ -6,10 +6,10 @@ module.exports = class extends React.PureComponent {
         <head>
           <title>{title}</title>
           <link rel='stylesheet' href='/stylesheets/style.css'/>
+          <script src="/javascripts/main.js/main.js" defer />
         </head>
         <body>
-          <h1>{title}</h1>
-          <p>Welcome to React: {React.version}</p>
+          <div id="app" />
         </body>
       </html>
   }
